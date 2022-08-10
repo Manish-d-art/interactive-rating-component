@@ -6,11 +6,11 @@
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
 }
-main{
+.container{
     margin:6rem 1.5rem;
     background-color: hsl(213, 19%, 18%,0.6);
     padding: 3rem 1rem 3rem 1rem;
-    
+    border-radius: 20px;
 }
 body{
     background-color: hsl(216, 12%, 8%);
@@ -51,16 +51,18 @@ img{
 }
 .rating__numbers{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .btn-css{
     font-weight: 700;
-margin: 3rem auto;
-font-size: 1.15rem;
+margin: 3rem auto 0 auto;
+font-size: 1rem;
 border-radius: 30px;
 background-color: hsl(25, 97%, 53%);
+border:2px solid hsl(25, 97%, 53%);
 color:hsl(0, 0%, 100%);
-padding:.8rem 5rem;
+padding:.8rem 6rem;
 display: block;
 }
+
