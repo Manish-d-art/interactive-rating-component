@@ -23,9 +23,12 @@ main{
     display: flex;
     justify-content: center;
 }
+.hidden{
+    display: none;
+}
 .container{
     margin:6rem 1.5rem;
-    background-color: hsl(213, 19%, 18%,0.6);
+    background-color: hsl(215, 25%, 14%);
     padding: 3rem 1rem 3rem 1rem;
     border-radius: 20px;
 }
@@ -33,7 +36,7 @@ body{
     background-color: hsl(216, 12%, 8%);
     margin:auto auto;
 }
-img{
+.star{
     padding:.8rem;
     background-color: hsl(216, 12%,54%,0.06);
     border-radius: 50%;
@@ -47,7 +50,7 @@ img{
 }
 
 .para{
-    color: hsl(216, 12%, 54%);
+    color:hsl(0, 0%, 100%,0.5);
     font-size: 15px;
     margin-bottom: 1.5rem;
     line-height: 1.5;
@@ -58,7 +61,7 @@ img{
     display: inline-block;
     background-color: hsl(216, 12%,54%,0.07);
     border-radius: 50%;
-    color: hsl(216, 12%, 54%);
+    color:hsl(0, 0%, 100%,0.5);
     font-weight: 400;
     height:45px;
     width:45px;
@@ -70,6 +73,9 @@ img{
 .rating__numbers{
     display: flex;
     justify-content: space-between;
+}
+.rating__numbers p:hover{
+    background-color: hsl(25, 97%, 53%);
 }
 
 .btn-css{
@@ -83,6 +89,57 @@ img{
     padding:.6rem 6rem;
     display: block;
     width:100%;
-    
+}
+.btn-css:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    border:2px solid hsl(0, 0%, 100%);
 }
 
+/* THANK YOU PORTION */
+
+@media (min-width:424px) {
+    .container-thank-you{
+        width:390px;
+        padding: 2rem 1.5rem 2rem 1.5rem !important;
+    }
+   
+}
+@media (max-width:310px) {
+    .container-thank-you{
+        width:260px;
+    }
+}
+
+.container-thank-you{
+    margin:6rem 1.5rem;
+    background-color: hsl(215, 25%, 14%);
+    padding: 3rem 1rem 3rem 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.thank-you-img{
+    width:10rem;
+    display: block;
+    margin:0 auto;
+    margin-bottom:2rem;
+}
+.rate-block{
+    color:hsl(25, 97%, 53%,0.67);
+    padding:0.6rem 1rem;
+    border-radius: 20px;
+    font-weight: 400;
+    background-color: hsl(25, 97%, 53%,0.03);
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.ty{
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 1rem;
+}
+
+.ty-para{
+    color:hsl(0, 0%, 100%,0.5);
+    font-size: 15px;
+}
