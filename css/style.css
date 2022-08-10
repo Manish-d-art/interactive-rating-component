@@ -6,6 +6,23 @@
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
 }
+
+@media (min-width:424px) {
+    .container{
+        width:390px;
+        padding: 2rem 2rem 2rem 2rem !important;
+    }
+   
+}
+@media (max-width:310px) {
+    .container{
+        width:260px;
+    }
+}
+main{
+    display: flex;
+    justify-content: center;
+}
 .container{
     margin:6rem 1.5rem;
     background-color: hsl(213, 19%, 18%,0.6);
@@ -14,16 +31,17 @@
 }
 body{
     background-color: hsl(216, 12%, 8%);
+    margin:auto auto;
 }
 img{
-    padding:1rem;
-    background-color: hsl(216, 12%,54%,0.2);
+    padding:.8rem;
+    background-color: hsl(216, 12%,54%,0.06);
     border-radius: 50%;
 
 }
 .heading{
     color:hsl(0, 0%, 100%);
-    margin: 2rem 0 1rem 0;
+    margin: 1.5rem 0 1rem 0;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -31,14 +49,14 @@ img{
 .para{
     color: hsl(216, 12%, 54%);
     font-size: 15px;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     line-height: 1.5;
     font-weight: 400;
 }
 
 .rating__numbers p{
     display: inline-block;
-    background-color: hsl(216, 12%,54%,0.2);
+    background-color: hsl(216, 12%,54%,0.07);
     border-radius: 50%;
     color: hsl(216, 12%, 54%);
     font-weight: 400;
@@ -56,13 +74,15 @@ img{
 
 .btn-css{
     font-weight: 700;
-margin: 3rem auto 0 auto;
-font-size: 1rem;
-border-radius: 30px;
-background-color: hsl(25, 97%, 53%);
-border:2px solid hsl(25, 97%, 53%);
-color:hsl(0, 0%, 100%);
-padding:.8rem 6rem;
-display: block;
+    margin: 1.5rem auto 0 auto;
+    font-size: .8rem;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    border:2px solid hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    padding:.6rem 6rem;
+    display: block;
+    width:100%;
+    
 }
 
