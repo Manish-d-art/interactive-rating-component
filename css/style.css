@@ -69,6 +69,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:.5s;
 
 }
 .rate-1,.rate-2,.rate-3,.rate-4,.rate-5{
@@ -94,6 +95,7 @@ body{
     display: block;
     width:100%;
     cursor: pointer;
+    transition: .5s;
 }
 .btn-css:hover{
     background-color: hsl(0, 0%, 100%);
@@ -116,12 +118,20 @@ body{
     }
 }
 
+@keyframes shake {
+    0% {}
+    70% {transform: translateY(-10px)}
+    100% {transform: translateY(0)}
+}
+
 .container-thank-you{
     margin:6rem 1.5rem;
     background-color: hsl(215, 25%, 14%);
     padding: 3rem 1rem 3rem 1rem;
     border-radius: 20px;
     text-align: center;
+    position:relative;
+    animation: shake 1s  linear ;
 }
 .thank-you-img{
     width:10rem;
