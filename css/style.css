@@ -70,6 +70,9 @@ body{
     align-items: center;
 
 }
+.rate-1,.rate-2,.rate-3,.rate-4,.rate-5{
+    cursor: pointer;
+}
 .rating__numbers{
     display: flex;
     justify-content: space-between;
@@ -89,6 +92,7 @@ body{
     padding:.6rem 6rem;
     display: block;
     width:100%;
+    cursor: pointer;
 }
 .btn-css:hover{
     background-color: hsl(0, 0%, 100%);
