@@ -14,7 +14,7 @@ function init(){
  function rateFunction(val){
     init();
      submitted=true;
-    document.querySelector(`.rate-block`).textContent=`you selectet ${val} out of 5`;
+    document.querySelector(`.rate-block`).textContent=`you selected ${val} out of 5`;
     document.querySelector(`.rate-${val}`).style.backgroundColor='hsl(217, 12%, 63%)';
 }
 
