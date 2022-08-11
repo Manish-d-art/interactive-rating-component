@@ -26,6 +26,7 @@ main{
 .hidden{
     display: none;
 }
+
 .container{
     margin:6rem 1.5rem;
     background-color: hsl(215, 25%, 14%);
