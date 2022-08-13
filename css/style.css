@@ -12,8 +12,23 @@
         width:390px;
         padding: 2rem 2rem 2rem 2rem !important;
     }
+    .heading{
+        font-size: 1.7rem !important;
+    }
    
 }
+@media (min-width:992px) {
+    .container{
+    margin:8rem 1.5rem !important;
+        
+    }
+    .container-thank-you {
+        margin: 8rem 1.5rem !important;
+       
+    }
+    
+}
+
 @media (max-width:310px) {
     .container{
         width:260px;
