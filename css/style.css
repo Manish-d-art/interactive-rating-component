@@ -132,7 +132,6 @@ body{
     text-align: center;
     position:relative;
     animation: shake  .5s ease-in  ;
-    /* transition: 1s; */
 }
 .thank-you-img{
     width:10rem;
