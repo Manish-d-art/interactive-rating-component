@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ solution URL here](https://github.com/Manish-d-art/interactive-rating-component.git)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-d-art.netlify.app)
+- Live Site URL: [ live site URL here](https://interactive-rating-component-d-art.netlify.app)
 
 ## My process
 
